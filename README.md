@@ -24,7 +24,7 @@ Backend Blog Application Build using NestJS, PostgreSQL, Prisma, Docker and Swap
 - Switch to the cloned folder. You can paste this command into the same terminal window.
 
 ```bash
-  cd hacktoberfest-practice
+  cd backend-blog-application
 ```
 ## Installing Dependencies:
 
