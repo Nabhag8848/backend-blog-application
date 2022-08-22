@@ -8,13 +8,13 @@ async function bootstrap() {
 
   app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
   const config = new DocumentBuilder()
-    .setTitle('Nabhag\'s Blog Site')
+    .setTitle("Nabhag's Blog Site")
     .setDescription('API Endpoints')
     .setVersion('0.1')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
-  SwaggerModule.setup('api', app, document)
+  SwaggerModule.setup('api', app, document);
   await app.listen(3000);
 }
 bootstrap();
